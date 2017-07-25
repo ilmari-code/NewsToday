@@ -1,0 +1,22 @@
+platform :ios,’8.0’
+target ’NewsToday’ do
+pod 'YYKit'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'Masonry', '~> 1.0.2'
+pod 'FMDB', '~> 2.6.2'
+pod 'SDWebImage', '~> 3.8.2'
+pod 'pop', '~> 1.0.9'
+pod 'AGGeometryKit', '~> 1.2.4'
+pod 'FFDropDownMenu', '~> 1.3.5'
+pod 'GDataXML-HTML', '~> 1.3.0'
+pod 'UICountingLabel','~> 1.2.0'
+pod 'AGGeometryKit+POP', '~> 0.1'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'ChameleonFramework'
+pod 'ZFPlayer'
+pod 'IQKeyboardManager'
+pod 'PYSearch'
+pod 'YTKNetwork'
+pod 'MJRefresh'
+pod 'YYWebImage'
+end

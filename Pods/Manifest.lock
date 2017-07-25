@@ -1,0 +1,95 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AGGeometryKit (1.2.4):
+    - AGGeometryKit/CALayerProperties (= 1.2.4)
+    - AGGeometryKit/UIViewProperties (= 1.2.4)
+  - AGGeometryKit+POP (0.1):
+    - AGGeometryKit+POP/Default (= 0.1)
+  - AGGeometryKit+POP/Default (0.1):
+    - AGGeometryKit (~> 1.0)
+    - pop (~> 1.0.4)
+  - AGGeometryKit/CALayerProperties (1.2.4)
+  - AGGeometryKit/UIViewProperties (1.2.4)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - FFDropDownMenu (1.3.5)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GDataXML-HTML (1.3.0)
+  - IQKeyboardManager (4.0.8)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - PYSearch (0.7.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UICountingLabel (1.2.0)
+  - YTKNetwork (2.0.3):
+    - AFNetworking (~> 3.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZFPlayer (2.1.3):
+    - Masonry
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AGGeometryKit (~> 1.2.4)
+  - AGGeometryKit+POP (~> 0.1)
+  - ChameleonFramework
+  - FFDropDownMenu (~> 1.3.5)
+  - FMDB (~> 2.6.2)
+  - GDataXML-HTML (~> 1.3.0)
+  - IQKeyboardManager
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh
+  - pop (~> 1.0.9)
+  - PYSearch
+  - SDWebImage (~> 3.8.2)
+  - UICountingLabel (~> 1.2.0)
+  - YTKNetwork
+  - YYKit
+  - ZFPlayer
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AGGeometryKit: 2c2c39c9f99eb7a966f0aa16b2a97027dacc4761
+  AGGeometryKit+POP: 72c980191db0646c31bed0b1ffd571e05f9ad029
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FFDropDownMenu: 224d40f7996f0dfdc5593e0e269fc585fed72e54
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GDataXML-HTML: 7adc03668cab35c288f1dbb8929a179f0fece898
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PYSearch: aed519e11ba12b5d0a9db68b4015e4cb266ca29f
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
+
+PODFILE CHECKSUM: 1d485bd1ed5855ae6e2f9da1aca157aa3fb16f78
+
+COCOAPODS: 1.3.0.beta.2

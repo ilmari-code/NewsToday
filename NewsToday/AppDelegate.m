@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootTabBarCtrl.h"
+#import <IQKeyboardManager.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSLog(@"PATH -- > %@",[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"]);
+    
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = NO;
+    manager.shouldResignOnTouchOutside = YES;//这个是点击空白区域键盘收缩的开关
+    manager.enableAutoToolbar = NO;//这个是它自带键盘工具条开关
+    
+    YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
+    
+    config.baseUrl = @"http://api.budejie.com";
+//    config.baseUrl = @"http://m.api.haoshiqi.net";
+//    config.baseUrl = @"http://student.waiyutong.org";
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = [[RootTabBarCtrl alloc]init];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
